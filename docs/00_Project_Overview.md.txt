@@ -1,3 +1,4 @@
+📄 00_Project_Overview.md
 Project Overview – Resolute-Portfolio (Open WebUI AI Assistant)
 1. Introduction
 This project is a full end‑to‑end Manual QA + LLM Testing portfolio, designed to simulate the responsibilities of a Manual QA Engineer working on a modern AI‑powered SaaS product. The goal is to demonstrate professional QA workflows, documentation, test design, execution, and bug reporting while validating both SaaS functionality and LLM behavior.
