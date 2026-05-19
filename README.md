@@ -75,6 +75,7 @@ Resolute-Portfolio/
 - [08_Regression_and_Exploratory_Testing.md](docs/08_Regression_and_Exploratory_Testing.md)
 - [09_Final_QA_Summary_Report.md](docs/09_Final_QA_Summary_Report.md)
 - [10_Portfolio_Presentation_Guide.md](docs/10_Portfolio_Presentation_Guide.md)
+  
 ├─ test-cases/
 │  ├─ manual/
 │  └─ api/
