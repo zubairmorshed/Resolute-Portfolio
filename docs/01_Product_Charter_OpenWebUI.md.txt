@@ -1,0 +1,100 @@
+📄 01_Product_Charter_OpenWebUI.md
+Product Charter – Open WebUI AI Assistant
+1. Product Summary
+Open WebUI is an open‑source AI assistant platform that provides a user‑friendly interface for interacting with local or remote Large Language Models (LLMs). It enables users to chat with AI models, configure model settings, manage chat history, and apply safety filters.
+
+This charter defines the product features, user expectations, and testing scope for the QA project.
+
+2. Product Vision
+To provide a reliable, intuitive, and safe AI assistant interface that allows users to interact with LLMs effectively while maintaining control over model settings, data, and safety constraints.
+
+3. Target Users
+Persona	Description	Needs
+General User	Uses the AI assistant for everyday tasks	Simple UI, accurate responses, safe outputs
+Technical User	Configures models, adjusts parameters	Control over settings, predictable behavior
+Content Creator	Uses AI for writing, brainstorming	Consistent output, minimal hallucinations
+QA Engineer (You)	Tests functionality & LLM behavior	Clear requirements, reproducible behavior
+
+
+4. Key Features
+4.1 Authentication
+Login/logout
+
+Session handling
+
+Invalid credential handling
+
+4.2 Chat Interface
+Send/receive messages
+
+Multi‑turn conversation support
+
+Markdown rendering
+
+Error handling
+
+4.3 Model Settings
+Model selection
+
+Temperature, max tokens, top‑p
+
+System prompt configuration
+
+4.4 Chat History
+Save conversations
+
+Load previous chats
+
+Delete history
+
+4.5 Safety & Filters
+Content moderation
+
+Restricted topics
+
+Warning messages
+
+4.6 LLM Behavior
+Accuracy
+
+Consistency
+
+Hallucination detection
+
+Instruction following
+
+Safety compliance
+
+5. Assumptions
+The LLM backend is functional and accessible
+
+The user has a stable local environment
+
+Open WebUI is installed and running
+
+LLM responses may vary (non‑deterministic behavior)
+
+Some features may depend on the model used
+
+6. Risks
+| Risk | Impact | Mitigation |
+| --- | --- | --- |
+| **LLM hallucinations** | Incorrect or unsafe output | Add LLM behavior test cases |
+| **Non‑deterministic responses** | Hard to reproduce bugs | Use prompt regression suite |
+| **Model configuration errors** | Incorrect output | Validate settings thoroughly |
+| **UI inconsistencies** | Poor UX | Functional + exploratory testing |
+| **Safety filter bypass** | Harmful content | Negative testing |
+
+
+7. Success Criteria
+All core features tested
+
+All high‑severity bugs logged
+
+LLM behavior validated
+
+Regression suite created
+
+Documentation complete
+
+Portfolio published publicly
