@@ -67,7 +67,7 @@ Resolute-Portfolio/
 │  ├─ 00_Project_Overview.md
 │  ├─ 01_Product_Charter_OpenWebUI.md
 │  ├─ 02_Requirements_and_User_Stories.md
-│  ├─ 03_Test_Strategy_and_Test_Plan.md
+│  ├─ [03_Test_Strategy_and_Test_Plan.md](docs/03_Test_Strategy_and_Test_Plan.md)
 │  ├─ 04_Test_Design_Manual_Test_Cases.md
 │  ├─ 05_Test_Execution_and_Reports.md
 │  ├─ 06_Bug_Reports_and_Jira_Workflows.md
