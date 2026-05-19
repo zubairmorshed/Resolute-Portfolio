@@ -1,0 +1,119 @@
+Project Overview – Resolute-Portfolio (Open WebUI AI Assistant)
+1. Introduction
+This project is a full end‑to‑end Manual QA + LLM Testing portfolio, designed to simulate the responsibilities of a Manual QA Engineer working on a modern AI‑powered SaaS product. The goal is to demonstrate professional QA workflows, documentation, test design, execution, and bug reporting while validating both SaaS functionality and LLM behavior.
+
+The product under test is Open WebUI, an open‑source AI assistant platform that integrates with local or remote LLMs. This provides an ideal environment for testing:
+
+Authentication & user flows
+
+Chat interface functionality
+
+Model configuration & settings
+
+Prompt processing & LLM output
+
+Safety & content filtering
+
+Data persistence (chat history, settings)
+
+This project is structured to reflect real‑world QA processes used in Agile/Scrum teams.
+
+2. Project Goals
+The primary goals of this QA portfolio are to:
+
+Demonstrate the ability to analyze complex AI‑driven product requirements
+
+Apply risk‑based testing strategies
+
+Design and execute manual test cases (positive, negative, edge)
+
+Validate LLM behavior for accuracy, consistency, and safety
+
+Report bugs professionally using Jira
+
+Maintain clean, organized QA documentation
+
+Show leadership through structured QA processes and clear communication
+
+Present a polished, recruiter‑ready QA project publicly
+
+3. Scope of Testing
+In Scope
+Functional testing of Open WebUI features
+
+LLM behavior testing (hallucinations, safety, consistency)
+
+UI/UX validation
+
+Negative and edge case testing
+
+Regression testing
+
+Exploratory testing
+
+API testing (if applicable)
+
+Bug reporting in Jira
+
+Test case management in Qase
+
+Evidence collection using ShareX
+
+Out of Scope
+Load/performance testing
+
+Security penetration testing
+
+Backend code review
+
+LLM model fine‑tuning or training
+
+Infrastructure or DevOps validation
+
+4. QA Deliverables
+This project will produce:
+
+Product Charter
+
+Requirements & User Stories
+
+Test Strategy & Test Plan
+
+Manual Test Cases (Functional + LLM)
+
+Test Execution Reports
+
+Bug Reports (Jira)
+
+Regression Suite
+
+Final QA Summary Report
+
+Public GitHub Pages portfolio
+
+5. Tools Used
+Category	Tools
+Test Management	Qase
+Bug Tracking	Jira (OWQA Project)
+Documentation	GitHub
+API Testing	Postman
+AI/LLM Testing	Open WebUI
+Evidence Capture	ShareX
+Portfolio Hosting	GitHub Pages
+
+
+6. Audience
+This project is intended for:
+
+Hiring managers
+
+QA leads
+
+Recruiters
+
+Engineering managers
+
+Anyone evaluating QA skills for AI‑powered SaaS products
+
+7. Summary
+This portfolio demonstrates a complete QA lifecycle for an AI‑powered SaaS application. It highlights the ability to test both traditional software features and modern LLM‑driven behavior — a critical skill for today’s QA roles.
