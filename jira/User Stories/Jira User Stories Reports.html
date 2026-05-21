@@ -1,0 +1,360 @@
+<html
+        xmlns="http://www.w3.org/TR/REC-html40">
+<head>
+<title>Story (Jira)</title>
+<style type="text/css">
+table {
+    mso-displayed-decimal-separator:"\.";
+    mso-displayed-thousand-separator:"\,";
+}
+body
+{
+    margin: 0px;
+    font-size: 12px;
+    font-family: Arial, sans-serif;
+    color:black;
+}
+
+</style>
+<META HTTP-EQUIV="Content-Type" Content="application/vnd.ms-excel; charset=UTF-8">
+<!-- JRA-7598 - ensure fields (e.g. description) occupy only one cell - even fields containing newlines. -->
+<!--
+Vertical align all cells to the top, in order to align all issue rows of issuetable to the top,
+since Excel does not use or save the css files it is hardcoded here.
+-->
+<style>
+@page
+{
+mso-page-orientation:landscape;
+margin:.25in .25in .5in .25in;
+mso-header-margin:.5in;
+mso-footer-margin:.25in;
+mso-footer-data:"&R&P of &N";
+mso-horizontal-page-align:center;
+mso-vertical-page-align:center;
+}
+
+td.issuekey,
+td.issuetype,
+td.status {
+    mso-style-parent: "";
+    mso-number-format: \@;
+    text-align: left;
+}
+br
+{
+    mso-data-placement:same-cell;
+}
+
+td
+{
+    vertical-align: top;
+}
+</style>
+
+<!--[if gte mso 9]><xml>
+<x:ExcelWorkbook>
+<x:ExcelWorksheets>
+<x:ExcelWorksheet>
+<x:Name>general_report</x:Name>
+<x:WorksheetOptions>
+<x:Print>
+<x:ValidPrinterInfo/>
+</x:Print>
+</x:WorksheetOptions>
+</x:ExcelWorksheet>
+</x:ExcelWorksheets>
+</x:ExcelWorkbook>
+</xml><![endif]-->
+</head>
+<body>
+
+<table border="1">
+    <tr bgcolor="#205081" height="30">
+        <td colspan="13">
+            <img src="https://zubairmorshed.atlassian.net/images/icon-jira-family-logo.png" width="57" height="30" border="0" alt="Story (Jira)">
+        </td>
+    </tr>
+    <tr>
+        <td colspan="13">
+            <a href="https://zubairmorshed.atlassian.net/issues/?filter=10034">Story (Jira)</a>
+        </td>
+    </tr>
+    <tr>
+                <td colspan="13">
+            Displaying <strong>5</strong> issues at <strong>20/May/26 7:24 PM</strong>.
+        </td>
+    </tr>
+</table>
+
+
+
+
+                                        <table id="issuetable" class="aui " border="1" cellpadding="3" cellspacing="1" width="100%">
+                        <thead>
+        <tr class="rowHeader">
+            
+                                                            <th class="colHeaderLink headerrow-issuetype" data-id="issuetype">
+                                                        Issue Type
+                                                    </th>
+                                                
+                                                            <th class="colHeaderLink headerrow-issuekey" data-id="issuekey">
+                                                        Key
+                                                    </th>
+                                                
+                                                            <th class="colHeaderLink headerrow-summary" data-id="summary">
+                                                        Summary
+                                                    </th>
+                                                
+                                                            <th class="colHeaderLink headerrow-description" data-id="description">
+                                                        Description
+                                                    </th>
+                                                
+                                                            <th class="colHeaderLink headerrow-assignee" data-id="assignee">
+                                                        Assignee
+                                                    </th>
+                                                
+                                                            <th class="colHeaderLink headerrow-reporter" data-id="reporter">
+                                                        Reporter
+                                                    </th>
+                                                
+                                                            <th class="colHeaderLink headerrow-priority" data-id="priority">
+                                                        Priority
+                                                    </th>
+                                                
+                                                            <th class="colHeaderLink headerrow-status" data-id="status">
+                                                        Status
+                                                    </th>
+                                                
+                                                            <th class="colHeaderLink headerrow-resolution" data-id="resolution">
+                                                        Resolution
+                                                    </th>
+                                                
+                                                            <th class="colHeaderLink headerrow-created" data-id="created">
+                                                        Created
+                                                    </th>
+                                                
+                                                            <th class="colHeaderLink headerrow-updated" data-id="updated">
+                                                        Updated
+                                                    </th>
+                                                
+                                                            <th class="colHeaderLink headerrow-duedate" data-id="duedate">
+                                                        Due date
+                                                    </th>
+                                                
+                                                            <th class="colHeaderLink headerrow-labels" data-id="labels">
+                                                        Labels
+                                                    </th>
+                                                                    </tr>
+    </thead>
+    <tbody>
+                    
+
+                <tr id="issuerow10041" rel="10041" data-issuekey="OWQA-9" class="issuerow">
+                                            <td class="issuetype">    Story
+</td>
+                                            <td class="issuekey">
+
+    <a class="issue-link" data-issue-key="OWQA-9" href="https://zubairmorshed.atlassian.net/browse/OWQA-9">OWQA-9</a>
+</td>
+                                            <td class="summary"><p>
+                System enforces safety filters for restricted content
+    </p>
+</td>
+                                            <td class="description">            As a user, I want the system to block unsafe or harmful prompts so that the AI behaves responsibly.<br/>
+<br/>
+*Acceptance Criteria:*<br/>
+<br/>
+* Unsafe prompts trigger warnings<br/>
+* AI refuses to generate harmful content<br/>
+* Logs are recorded for restricted prompts
+    </td>
+                                            <td class="assignee">            Zubair Morshed
+    </td>
+                                            <td class="reporter">            Zubair Morshed
+    </td>
+                                            <td class="priority">           High
+    </td>
+                                            <td class="status">
+                <span class=" jira-issue-status-lozenge aui-lozenge jira-issue-status-lozenge-yellow jira-issue-status-lozenge-indeterminate aui-lozenge-subtle jira-issue-status-lozenge-max-width-medium" data-tooltip="&lt;span class=&quot;jira-issue-status-tooltip-title&quot;&gt;Ready for QA&lt;/span&gt;">Ready for QA</span>    </td>
+                                            <td class="resolution">    <em>Unresolved</em>
+</td>
+                                            <td class="created"> 18/May/26 8:47 PM </td>
+                                            <td class="updated"> 20/May/26 7:24 PM </td>
+                                            <td class="duedate">    &nbsp;
+</td>
+                                            <td class="labels">    high-risk,, llm-behavior,, safety-filters,, story</td>
+                    </tr>
+
+
+                <tr id="issuerow10040" rel="10040" data-issuekey="OWQA-8" class="issuerow">
+                                            <td class="issuetype">    Story
+</td>
+                                            <td class="issuekey">
+
+    <a class="issue-link" data-issue-key="OWQA-8" href="https://zubairmorshed.atlassian.net/browse/OWQA-8">OWQA-8</a>
+</td>
+                                            <td class="summary"><p>
+                User can save and view chat history
+    </p>
+</td>
+                                            <td class="description">            As a user, I want my chat history to be saved so I can revisit previous conversations.<br/>
+<br/>
+*Acceptance Criteria:*<br/>
+<br/>
+* Chat history loads on login<br/>
+* User can delete a conversation<br/>
+* Deleted conversations do not reappear
+    </td>
+                                            <td class="assignee">            Zubair Morshed
+    </td>
+                                            <td class="reporter">            Zubair Morshed
+    </td>
+                                            <td class="priority">           Medium
+    </td>
+                                            <td class="status">
+                <span class=" jira-issue-status-lozenge aui-lozenge jira-issue-status-lozenge-yellow jira-issue-status-lozenge-indeterminate aui-lozenge-subtle jira-issue-status-lozenge-max-width-medium" data-tooltip="&lt;span class=&quot;jira-issue-status-tooltip-title&quot;&gt;Ready for QA&lt;/span&gt;">Ready for QA</span>    </td>
+                                            <td class="resolution">    <em>Unresolved</em>
+</td>
+                                            <td class="created"> 18/May/26 8:46 PM </td>
+                                            <td class="updated"> 20/May/26 7:24 PM </td>
+                                            <td class="duedate">    &nbsp;
+</td>
+                                            <td class="labels">    history,, story</td>
+                    </tr>
+
+
+                <tr id="issuerow10039" rel="10039" data-issuekey="OWQA-7" class="issuerow">
+                                            <td class="issuetype">    Story
+</td>
+                                            <td class="issuekey">
+
+    <a class="issue-link" data-issue-key="OWQA-7" href="https://zubairmorshed.atlassian.net/browse/OWQA-7">OWQA-7</a>
+</td>
+                                            <td class="summary"><p>
+                User can configure model parameters
+    </p>
+</td>
+                                            <td class="description">            As a technical user, I want to adjust model settings (temperature, max tokens, model selection) so I can control the behavior of the LLM.<br/>
+<br/>
+*Acceptance Criteria:*<br/>
+<br/>
+* Settings persist after refresh<br/>
+* Invalid values show validation errors<br/>
+* Changing settings affects LLM output
+    </td>
+                                            <td class="assignee">            Zubair Morshed
+    </td>
+                                            <td class="reporter">            Zubair Morshed
+    </td>
+                                            <td class="priority">           Medium
+    </td>
+                                            <td class="status">
+                <span class=" jira-issue-status-lozenge aui-lozenge jira-issue-status-lozenge-yellow jira-issue-status-lozenge-indeterminate aui-lozenge-subtle jira-issue-status-lozenge-max-width-medium" data-tooltip="&lt;span class=&quot;jira-issue-status-tooltip-title&quot;&gt;Ready for QA&lt;/span&gt;">Ready for QA</span>    </td>
+                                            <td class="resolution">    <em>Unresolved</em>
+</td>
+                                            <td class="created"> 18/May/26 8:45 PM </td>
+                                            <td class="updated"> 20/May/26 7:24 PM </td>
+                                            <td class="duedate">    &nbsp;
+</td>
+                                            <td class="labels">    model-settings,, story</td>
+                    </tr>
+
+
+                <tr id="issuerow10038" rel="10038" data-issuekey="OWQA-6" class="issuerow">
+                                            <td class="issuetype">    Story
+</td>
+                                            <td class="issuekey">
+
+    <a class="issue-link" data-issue-key="OWQA-6" href="https://zubairmorshed.atlassian.net/browse/OWQA-6">OWQA-6</a>
+</td>
+                                            <td class="summary"><p>
+                User can send a message and receive an AI response
+    </p>
+</td>
+                                            <td class="description">            As a user, I want to send a message to the AI assistant and receive a response so I can interact with the LLM.<br/>
+<br/>
+*Acceptance Criteria:*<br/>
+<br/>
+* *Given* I am logged in *When* I type a message and click Send *Then* the message should appear in the chat window *And* the AI should generate a response<br/>
+<br/>
+*Test Coverage Notes:*<br/>
+<br/>
+* Response time<br/>
+* Error handling<br/>
+* LLM output formatting<br/>
+* Multi-turn conversation
+    </td>
+                                            <td class="assignee">            Zubair Morshed
+    </td>
+                                            <td class="reporter">            Zubair Morshed
+    </td>
+                                            <td class="priority">           High
+    </td>
+                                            <td class="status">
+                <span class=" jira-issue-status-lozenge aui-lozenge jira-issue-status-lozenge-yellow jira-issue-status-lozenge-indeterminate aui-lozenge-subtle jira-issue-status-lozenge-max-width-medium" data-tooltip="&lt;span class=&quot;jira-issue-status-tooltip-title&quot;&gt;Ready for QA&lt;/span&gt;">Ready for QA</span>    </td>
+                                            <td class="resolution">    <em>Unresolved</em>
+</td>
+                                            <td class="created"> 18/May/26 8:44 PM </td>
+                                            <td class="updated"> 20/May/26 7:24 PM </td>
+                                            <td class="duedate">    &nbsp;
+</td>
+                                            <td class="labels">    chat-interface,, llm-behavior,, story</td>
+                    </tr>
+
+
+                <tr id="issuerow10036" rel="10036" data-issuekey="OWQA-5" class="issuerow">
+                                            <td class="issuetype">    Story
+</td>
+                                            <td class="issuekey">
+
+    <a class="issue-link" data-issue-key="OWQA-5" href="https://zubairmorshed.atlassian.net/browse/OWQA-5">OWQA-5</a>
+</td>
+                                            <td class="summary"><p>
+                User can log in with valid credentials
+    </p>
+</td>
+                                            <td class="description">            As a user, I want to log in with valid credentials so I can securely access the Open WebUI application.<br/>
+<br/>
+*Acceptance Criteria (Gherkin):*<br/>
+<br/>
+* *Given* I am on the login page *When* I enter valid credentials *Then* I should be logged in and redirected to the chat interface<br/>
+* *Given* I enter invalid credentials *When* I attempt to log in *Then* I should see an error message and remain on the login page<br/>
+<br/>
+*Test Coverage Notes:*<br/>
+<br/>
+* Positive login<br/>
+* Invalid password<br/>
+* Invalid email<br/>
+* Empty fields<br/>
+* Session persistence
+    </td>
+                                            <td class="assignee">            Zubair Morshed
+    </td>
+                                            <td class="reporter">            Zubair Morshed
+    </td>
+                                            <td class="priority">           High
+    </td>
+                                            <td class="status">
+                <span class=" jira-issue-status-lozenge aui-lozenge jira-issue-status-lozenge-yellow jira-issue-status-lozenge-indeterminate aui-lozenge-subtle jira-issue-status-lozenge-max-width-medium" data-tooltip="&lt;span class=&quot;jira-issue-status-tooltip-title&quot;&gt;Ready for QA&lt;/span&gt;">Ready for QA</span>    </td>
+                                            <td class="resolution">    <em>Unresolved</em>
+</td>
+                                            <td class="created"> 18/May/26 8:38 PM </td>
+                                            <td class="updated"> 20/May/26 7:24 PM </td>
+                                            <td class="duedate">    &nbsp;
+</td>
+                                            <td class="labels">    auth,, high-risk, story,</td>
+                    </tr>
+        </tbody>
+    </table>
+    <div class="end-of-stable-message"></div>
+            <table border="1" >
+<tr>
+    <td bgcolor="#dddddd" colspan="13"><font size="1">
+        Generated at Wed May 20 23:24:30 UTC 2026 by Zubair Morshed using Jira 1001.0.0-SNAPSHOT#100291-rev:e64422fc0bca366a72ebb118f1d9c35adcf7d14e.
+    </font></td>
+</tr>
+</table>
+
+</body>
+</html>

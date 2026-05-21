@@ -1,0 +1,355 @@
+<html
+        xmlns="http://www.w3.org/TR/REC-html40">
+<head>
+<title>Bug (Jira)</title>
+<style type="text/css">
+table {
+    mso-displayed-decimal-separator:"\.";
+    mso-displayed-thousand-separator:"\,";
+}
+body
+{
+    margin: 0px;
+    font-size: 12px;
+    font-family: Arial, sans-serif;
+    color:black;
+}
+
+</style>
+<META HTTP-EQUIV="Content-Type" Content="application/vnd.ms-excel; charset=UTF-8">
+<!-- JRA-7598 - ensure fields (e.g. description) occupy only one cell - even fields containing newlines. -->
+<!--
+Vertical align all cells to the top, in order to align all issue rows of issuetable to the top,
+since Excel does not use or save the css files it is hardcoded here.
+-->
+<style>
+@page
+{
+mso-page-orientation:landscape;
+margin:.25in .25in .5in .25in;
+mso-header-margin:.5in;
+mso-footer-margin:.25in;
+mso-footer-data:"&R&P of &N";
+mso-horizontal-page-align:center;
+mso-vertical-page-align:center;
+}
+
+td.issuekey,
+td.issuetype,
+td.status {
+    mso-style-parent: "";
+    mso-number-format: \@;
+    text-align: left;
+}
+br
+{
+    mso-data-placement:same-cell;
+}
+
+td
+{
+    vertical-align: top;
+}
+</style>
+
+<!--[if gte mso 9]><xml>
+<x:ExcelWorkbook>
+<x:ExcelWorksheets>
+<x:ExcelWorksheet>
+<x:Name>general_report</x:Name>
+<x:WorksheetOptions>
+<x:Print>
+<x:ValidPrinterInfo/>
+</x:Print>
+</x:WorksheetOptions>
+</x:ExcelWorksheet>
+</x:ExcelWorksheets>
+</x:ExcelWorkbook>
+</xml><![endif]-->
+</head>
+<body>
+
+<table border="1">
+    <tr bgcolor="#205081" height="30">
+        <td colspan="13">
+            <img src="https://zubairmorshed.atlassian.net/images/icon-jira-family-logo.png" width="57" height="30" border="0" alt="Bug (Jira)">
+        </td>
+    </tr>
+    <tr>
+        <td colspan="13">
+            <a href="https://zubairmorshed.atlassian.net/issues/?filter=10033">Bug (Jira)</a>
+        </td>
+    </tr>
+    <tr>
+                <td colspan="13">
+            Displaying <strong>3</strong> issues at <strong>20/May/26 7:25 PM</strong>.
+        </td>
+    </tr>
+</table>
+
+
+
+
+                                        <table id="issuetable" class="aui " border="1" cellpadding="3" cellspacing="1" width="100%">
+                        <thead>
+        <tr class="rowHeader">
+            
+                                                            <th class="colHeaderLink headerrow-issuetype" data-id="issuetype">
+                                                        Issue Type
+                                                    </th>
+                                                
+                                                            <th class="colHeaderLink headerrow-issuekey" data-id="issuekey">
+                                                        Key
+                                                    </th>
+                                                
+                                                            <th class="colHeaderLink headerrow-summary" data-id="summary">
+                                                        Summary
+                                                    </th>
+                                                
+                                                            <th class="colHeaderLink headerrow-description" data-id="description">
+                                                        Description
+                                                    </th>
+                                                
+                                                            <th class="colHeaderLink headerrow-assignee" data-id="assignee">
+                                                        Assignee
+                                                    </th>
+                                                
+                                                            <th class="colHeaderLink headerrow-reporter" data-id="reporter">
+                                                        Reporter
+                                                    </th>
+                                                
+                                                            <th class="colHeaderLink headerrow-priority" data-id="priority">
+                                                        Priority
+                                                    </th>
+                                                
+                                                            <th class="colHeaderLink headerrow-status" data-id="status">
+                                                        Status
+                                                    </th>
+                                                
+                                                            <th class="colHeaderLink headerrow-resolution" data-id="resolution">
+                                                        Resolution
+                                                    </th>
+                                                
+                                                            <th class="colHeaderLink headerrow-created" data-id="created">
+                                                        Created
+                                                    </th>
+                                                
+                                                            <th class="colHeaderLink headerrow-updated" data-id="updated">
+                                                        Updated
+                                                    </th>
+                                                
+                                                            <th class="colHeaderLink headerrow-duedate" data-id="duedate">
+                                                        Due date
+                                                    </th>
+                                                
+                                                            <th class="colHeaderLink headerrow-labels" data-id="labels">
+                                                        Labels
+                                                    </th>
+                                                                    </tr>
+    </thead>
+    <tbody>
+                    
+
+                <tr id="issuerow10044" rel="10044" data-issuekey="OWQA-12" class="issuerow">
+                                            <td class="issuetype">    Bug
+</td>
+                                            <td class="issuekey">
+
+    <a class="issue-link" data-issue-key="OWQA-12" href="https://zubairmorshed.atlassian.net/browse/OWQA-12">OWQA-12</a>
+</td>
+                                            <td class="summary"><p>
+                The temperature field accepts unrealistic values (e.g., 9999)
+    </p>
+</td>
+                                            <td class="description">            h3. Temperature field accepts extremely large numeric values outside the expected LLM parameter range.<br/>
+<br/>
+h3. *Environment*<br/>
+<br/>
+* Open WebUI (local instance)<br/>
+* Model: llama3.1:latest<br/>
+* Browser: Chrome / Edge<br/>
+* OS: Windows<br/>
+<br/>
+h3. *Severity:* Low<br/>
+<br/>
+h3. *Priority:* Medium<br/>
+<br/>
+h3. *Precondition*<br/>
+<br/>
+User is logged into Open WebUI.<br/>
+<br/>
+h3. *Steps to Reproduce*<br/>
+<br/>
+# Go to *Settings → Models*<br/>
+# Select the default model (e.g., llama3.1:latest)<br/>
+# Locate the *Temperature* field<br/>
+# Enter a value such as *9999* or *-500*<br/>
+# Click outside the field or save settings<br/>
+<br/>
+h3. *Expected Result*<br/>
+<br/>
+* Temperature should be restricted to a reasonable range (e.g., 0.0 to 2.0)<br/>
+* UI should prevent unrealistic values<br/>
+* Validation message should appear if the value is out of range<br/>
+<br/>
+h3. *Actual Result*<br/>
+<br/>
+* The field accepts extremely large values (e.g., 9999)<br/>
+* No validation or warning is shown<br/>
+* Settings appear to save successfully<br/>
+<br/>
+h3. *Impact*<br/>
+<br/>
+* Users may unintentionally break model behavior<br/>
+* Poor UX due to lack of validation<br/>
+* Inconsistent with typical LLM parameter ranges<br/>
+<br/>
+!image-20260520-230725.png|width=927,alt=&quot;image-20260520-230725.png&quot;!
+    </td>
+                                            <td class="assignee">    <em>Unassigned</em>
+</td>
+                                            <td class="reporter">            Zubair Morshed
+    </td>
+                                            <td class="priority">           Medium
+    </td>
+                                            <td class="status">
+                <span class=" jira-issue-status-lozenge aui-lozenge jira-issue-status-lozenge-yellow jira-issue-status-lozenge-indeterminate aui-lozenge-subtle jira-issue-status-lozenge-max-width-medium" data-tooltip="&lt;span class=&quot;jira-issue-status-tooltip-title&quot;&gt;In Progress&lt;/span&gt;">In Progress</span>    </td>
+                                            <td class="resolution">    <em>Unresolved</em>
+</td>
+                                            <td class="created"> 18/May/26 8:58 PM </td>
+                                            <td class="updated"> 20/May/26 7:18 PM </td>
+                                            <td class="duedate">    &nbsp;
+</td>
+                                            <td class="labels">    bug, model-settings,, settings</td>
+                    </tr>
+
+
+                <tr id="issuerow10043" rel="10043" data-issuekey="OWQA-11" class="issuerow">
+                                            <td class="issuetype">    Bug
+</td>
+                                            <td class="issuekey">
+
+    <a class="issue-link" data-issue-key="OWQA-11" href="https://zubairmorshed.atlassian.net/browse/OWQA-11">OWQA-11</a>
+</td>
+                                            <td class="summary"><p>
+                No confirmation message after changing settings
+    </p>
+</td>
+                                            <td class="description">            Settings changes do not display any confirmation message, leaving the user unsure if changes were saved.<br/>
+<br/>
+h3. *Environment*<br/>
+<br/>
+* Open WebUI (local instance)<br/>
+* Model: llama3.1:latest<br/>
+* Browser: Chrome / Edge<br/>
+* OS: Windows<br/>
+<br/>
+h3. *Severity:* Medium<br/>
+<br/>
+h3. *Precondition*<br/>
+<br/>
+User is logged into Open WebUI.<br/>
+<br/>
+h3. *Steps to Reproduce*<br/>
+<br/>
+# Go to *Settings → Models*<br/>
+# Change any parameter (Temperature, Top‑K, Max Tokens, etc.)<br/>
+# Click outside the field or navigate away<br/>
+# Observe the UI<br/>
+<br/>
+h3. *Expected Result*<br/>
+<br/>
+* A confirmation message should appear, such as: *“Settings saved successfully.”*<br/>
+* User should receive clear feedback<br/>
+<br/>
+h3. *Actual Result*<br/>
+<br/>
+* No confirmation message appears<br/>
+* No visual feedback is provided<br/>
+* User cannot tell if the change was saved<br/>
+<br/>
+h3. *Impact*<br/>
+<br/>
+* Causes confusion<br/>
+* Users may repeat actions unnecessarily<br/>
+* Reduces trust in the settings panel<br/>
+<br/>
+!image-20260520-231144.png|width=927,alt=&quot;image-20260520-231144.png&quot;!
+    </td>
+                                            <td class="assignee">            Zubair Morshed
+    </td>
+                                            <td class="reporter">            Zubair Morshed
+    </td>
+                                            <td class="priority">           Medium
+    </td>
+                                            <td class="status">
+                <span class=" jira-issue-status-lozenge aui-lozenge jira-issue-status-lozenge-yellow jira-issue-status-lozenge-indeterminate aui-lozenge-subtle jira-issue-status-lozenge-max-width-medium" data-tooltip="&lt;span class=&quot;jira-issue-status-tooltip-title&quot;&gt;Ready for QA&lt;/span&gt;">Ready for QA</span>    </td>
+                                            <td class="resolution">    <em>Unresolved</em>
+</td>
+                                            <td class="created"> 18/May/26 8:55 PM </td>
+                                            <td class="updated"> 20/May/26 7:24 PM </td>
+                                            <td class="duedate">    &nbsp;
+</td>
+                                            <td class="labels">    bug,, safety-filters,, settings</td>
+                    </tr>
+
+
+                <tr id="issuerow10042" rel="10042" data-issuekey="OWQA-10" class="issuerow">
+                                            <td class="issuetype">    Bug
+</td>
+                                            <td class="issuekey">
+
+    <a class="issue-link" data-issue-key="OWQA-10" href="https://zubairmorshed.atlassian.net/browse/OWQA-10">OWQA-10</a>
+</td>
+                                            <td class="summary"><p>
+                Occasionally, chat history does not persist after a page refresh 
+    </p>
+</td>
+                                            <td class="description">            h1. Occasionally, chat history does not persist after a page refresh<br/>
+<br/>
+*Environment:*   Open WebUI v0.x Local LLM (Llama 3.1 8B) Windows 11<br/>
+<br/>
+*Preconditions:*   User is logged in<br/>
+<br/>
+*Steps to Reproduce:*<br/>
+<br/>
+# Log in<br/>
+# Send a message<br/>
+# Refresh the page<br/>
+# Navigate to chat history<br/>
+<br/>
+*Expected Result:*   Chat history should display the previous conversation<br/>
+<br/>
+*Actual Result:*   Chat history is empty<br/>
+<br/>
+*Root Cause Hypothesis:*   Local storage or backend persistence is not writing correctly
+    </td>
+                                            <td class="assignee">    <em>Unassigned</em>
+</td>
+                                            <td class="reporter">            Zubair Morshed
+    </td>
+                                            <td class="priority">           High
+    </td>
+                                            <td class="status">
+                <span class=" jira-issue-status-lozenge aui-lozenge jira-issue-status-lozenge-yellow jira-issue-status-lozenge-indeterminate aui-lozenge-subtle jira-issue-status-lozenge-max-width-medium" data-tooltip="&lt;span class=&quot;jira-issue-status-tooltip-title&quot;&gt;In Progress&lt;/span&gt;">In Progress</span>    </td>
+                                            <td class="resolution">    <em>Unresolved</em>
+</td>
+                                            <td class="created"> 18/May/26 8:54 PM </td>
+                                            <td class="updated"> 20/May/26 7:21 PM </td>
+                                            <td class="duedate">    &nbsp;
+</td>
+                                            <td class="labels">    bug,, high-risk, history,</td>
+                    </tr>
+        </tbody>
+    </table>
+    <div class="end-of-stable-message"></div>
+            <table border="1" >
+<tr>
+    <td bgcolor="#dddddd" colspan="13"><font size="1">
+        Generated at Wed May 20 23:25:01 UTC 2026 by Zubair Morshed using Jira 1001.0.0-SNAPSHOT#100291-rev:e64422fc0bca366a72ebb118f1d9c35adcf7d14e.
+    </font></td>
+</tr>
+</table>
+
+</body>
+</html>
