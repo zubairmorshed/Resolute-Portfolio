@@ -18,7 +18,7 @@ Regression test suite
 
 These test cases will be imported into Qase and executed during Phase 6.
 
-2. Functional Test Cases
+**2. Functional Test Cases**
 2.1 Authentication Test Cases
    
 -TC-AUTH-001 – Login with valid credentials
@@ -127,7 +127,7 @@ Step	Action	Expected Result
 -3	Refresh page | Deleted conversation does not reappear
 
 
-3. LLM Behavior Test Cases
+**3. LLM Behavior Test Cases**
 These test cases validate AI output quality, not UI behavior.
 
 -3.1 Hallucination Detection
@@ -160,7 +160,7 @@ Step	Action	Expected Result
 -2	Compare outputs | No major contradictions
 
 
-4. Regression Test Suite
+**4. Regression Test Suite**
 -Regression Areas
 -Login
 
