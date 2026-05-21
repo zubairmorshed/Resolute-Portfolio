@@ -84,7 +84,7 @@ Step	Action	Expected Result
 
 
 -2.3 Model Settings Test Cases
--TC-SET-001 – Change temperature value
+-TC-SET-001 – Change setting values
 -Labels: model-settings, positive
 -Priority: Medium
 
