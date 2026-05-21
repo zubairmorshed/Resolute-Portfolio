@@ -1,208 +1,177 @@
-📘 Manual QA & LLM Testing Portfolio
-Resolute-Portfolio – Open WebUI AI Assistant
-🔍 Executive Summary
-This portfolio showcases a complete, end‑to‑end Manual QA project focused on testing an AI/LLM‑powered SaaS application using industry‑standard QA workflows, documentation practices, and free-tier tools.
+***Open WebUI – Manual QA & LLM Testing Project***
 
-The project simulates a real QA environment where I test Open WebUI, an AI assistant platform that integrates with local or remote LLMs.
+This project demonstrates a complete Manual QA workflow applied to an AI‑powered web application (Open WebUI) integrated with a local LLM (Ollama).
+It includes test planning, test case design, regression execution, defect reporting, evidence collection, and documentation using industry‑standard QA tools.
 
-It demonstrates my ability to:
+This portfolio demonstrates my ability to evaluate modern AI‑powered systems using disciplined, evidence‑based QA practices.
 
-Analyze complex user requirements
+**Project Overview**
+The goal of this project was to validate the core functionality, settings, and LLM behavior of Open WebUI.
+The testing process followed a structured QA approach:
 
-Develop risk‑based test strategies
+Requirement analysis
 
-Design and execute manual test cases (Positive, Negative, Edge)
+Test planning
 
-Test SaaS features and LLM behavior
+Test case design
 
-Validate AI responses for accuracy, safety, and consistency
+Regression execution
 
-Track and report bugs professionally in Jira
+Bug reporting
 
-Maintain structured QA documentation
+Evidence capture
 
-Work within Agile/Scrum and CI/CD‑style QA processes
+Documentation
 
-Communicate clearly through organized, reproducible workflows
+Portfolio packaging
 
-This project is designed to reflect the expectations of modern QA teams working with AI‑driven products.
+All artifacts from the full QA cycle are included in this repository.
 
-🧩 Product Under Test: Open WebUI
-Open WebUI is an open‑source AI assistant platform that provides:
+**Tools and Technologies**
+Qase (Test Management)
 
-User authentication
+Jira (Bug Tracking)
 
-Chat interface
+ShareX (Evidence Capture)
 
-Model selection & configuration
+Open WebUI + Ollama (Application Under Test)
 
-Prompt templates
+GitHub (Version Control)
 
-Chat history & persistence
+PDF/Markdown (Documentation)
 
-Safety filters
-
-LLM‑powered reasoning and generation
-
-This makes it ideal for demonstrating SaaS testing + LLM testing in one unified project.
-
-🛠️ Tools & Technologies Used
-Category	Tools
-Test Management	Qase
-Bug Tracking & Agile Workflow	Jira (OWQA Project)
-Repository & Documentation	GitHub
-API Testing	Postman
-AI/LLM Testing	Open WebUI + local/remote LLM
-Evidence Capture	ShareX
-Portfolio Hosting	GitHub Pages
-
-
-All tools used are free-tier and accessible to any QA engineer.
-
-🧱 Project Structure
+**Repository Structure**
 Code
-Resolute-Portfolio/
-├─ README.md
-├─ docs/
-- [00_Project_Overview.md](docs/00_Project_Overview.md)
-- [01_Product_Charter_OpenWebUI.md](docs/01_Product_Charter_OpenWebUI.md)
-- [02_Requirements_and_User_Stories.md](docs/02_Requirements_and_User_Stories.md)
-- [03_Test_Strategy_and_Test_Plan.md](docs/03_Test_Strategy_and_Test_Plan.md)
-- [04_Test_Design_Manual_Test_Cases.md](docs/04_Test_Design_Manual_Test_Cases.md)
-- [05_Test_Execution_and_Reports.md](docs/05_Test_Execution_and_Reports.md)
-- [06_Bug_Reports_and_Jira_Workflows.md](docs/06_Bug_Reports_and_Jira_Workflows.md)
-- [07_AI_LLM_Testing_Approach.md](docs/07_AI_LLM_Testing_Approach.md)
-- [08_Regression_and_Exploratory_Testing.md](docs/08_Regression_and_Exploratory_Testing.md)
-- [09_Final_QA_Summary_Report.md](docs/09_Final_QA_Summary_Report.md)
-- [10_Portfolio_Presentation_Guide.md](docs/10_Portfolio_Presentation_Guide.md)
-  
-├─ test-cases/
-│  ├─ manual/
-│  └─ api/
-├─ jira/
-├─ qase/
-├─ evidence/
-│  ├─ screenshots/
-│  ├─ videos/
-│  └─ logs/
-└─ pages/
-   └─ index.md
-This structure mirrors how QA teams organize documentation in real SaaS companies.
+/Docs
+   Test-Plan.pdf
+   Test-Cases.pdf
+   QASE-Regression-Test-Run.pdf
+   Jira-Bug-Export.csv
+   Jira-Dashboard.png
 
-📌 Key Deliverables in This Portfolio
-1. Requirements & User Stories
-High‑level product requirements
+/Evidence
+   /Bugs
+       
+/Jira
+   /Bugs
+   /Stories
+   /Dashboard
 
-User personas
+/QASE
+   Regression-Test-Run.pdf
 
-Jira stories with acceptance criteria
+**README.md**
+This structure is clean, organized, and aligned with professional QA documentation standards.
 
-2. Test Strategy & Test Plan
-Risk‑based testing
+*Test Coverage*
+A total of 13 regression test cases were designed and executed, covering:
 
-SaaS + LLM testing layers
+Authentication
+Login behavior
 
-Entry/exit criteria
+Session handling
 
-Test scope & non‑scope
+Model Selection
+Switching between models
 
-3. Manual Test Cases
-Functional test cases
+Default model behavior
 
-Negative & edge cases
+LLM Settings
+Temperature
 
-LLM behavior test cases
+Validation of invalid inputs
 
-Regression suite
+Chat Functionality
+Prompt/response behavior
 
-4. Test Execution
-Qase test runs
+Chat history
 
-Evidence (screenshots, logs)
+UI behavior
 
-Execution summary
+General UI
+Navigation
 
-5. Bug Reports
-Jira bug tickets with:
+Settings panel
+
+Error handling
+
+All execution results and screenshots are included in the Qase Regression Test Run PDF.
+
+**Defect Reporting**
+Three defects were identified and logged in Jira with full evidence.
+Each bug includes:
+
+Summary
 
 Steps to reproduce
 
-Expected vs actual
+Expected vs actual results
 
-Severity & priority
+Severity and priority
 
 Screenshots
 
-6. LLM‑Focused Testing
-Prompt regression suite
+Bug evidence is stored in the /Evidence/Bugs folder.
 
-Hallucination testing
+Qase Regression Test Run
+The full regression cycle was executed in Qase, including:
 
-Safety & content filter validation
+Step‑by‑step execution
 
-Determinism & variability checks
+Pass/Fail results
 
-7. Final QA Report
-Summary of findings
+Embedded screenshots
 
-Risk assessment
+Execution timestamps
 
-Recommendations
+The exported PDF is available in /Docs/QASE-Regression-Test-Run.pdf.
 
-📊 Jira Project
-Project Key: OWQA  
-Board: Scrum
-URL: (Add your Jira board link here)
+Jira Dashboard
+A Jira dashboard was created to visualize:
 
-Includes:
+Bug distribution
 
-User stories
+Issue types
 
-Bug workflow
+Status breakdown
 
-QA dashboard
+The dashboard screenshot is included in /Docs.
 
-Sprint‑based QA tasks
+Key Skills Demonstrated
+Manual QA
 
-🌐 GitHub Pages Portfolio
-A public landing page will be published under:
+Regression testing
 
-https://<your-username>.github.io/Resolute-Portfolio
+Test case design
 
-This page will summarize the project for recruiters and hiring managers.
+LLM testing
 
-🎯 Why This Project Matters
-Modern QA roles increasingly require:
+Bug reporting
 
-Understanding of AI/LLM behavior
+Evidence‑based documentation
 
-Ability to test unpredictable systems
+QA workflow management
 
-Strong documentation and communication
+Tool proficiency (Qase, Jira, ShareX)
 
-Familiarity with Agile workflows
+Professional portfolio presentation
 
-Comfort with SaaS platforms and APIs
+**About Me**
+I am a QA professional with a strong focus on:
 
-This project demonstrates all of these skills in a realistic, end‑to‑end QA scenario.
+Clear, reproducible workflows
 
-🚀 Roadmap
-[ ] Populate requirements & user stories
+Professional documentation
 
-[ ] Add test strategy & plan
+Real‑world QA practices
 
-[ ] Build manual test cases in Qase
+Testing AI/LLM applications
 
-[ ] Execute tests & collect evidence
+This project reflects my commitment to structured, high‑quality QA work.
 
-[ ] Log bugs in Jira
-
-[ ] Add LLM regression suite
-
-[ ] Publish GitHub Pages site
-
-[ ] Final QA report
-
-👤 About Me
-I am a Manual QA professional transitioning into AI‑focused QA roles.
-This portfolio demonstrates my ability to test modern AI‑powered applications using structured, professional QA processes.
+**Contact**
+Zubair Morshed
+zubairmorshed@gmail.com
+347-742-9953
+Queens, NY
+Open to Manual QA and Analytics Engineering roles
