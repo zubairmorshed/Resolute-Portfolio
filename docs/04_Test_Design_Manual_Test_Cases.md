@@ -1,5 +1,5 @@
-=Test Design – Manual Test Cases (Functional + LLM Behavior)=
-=Resolute-Portfolio – Open WebUI AI Assistant
+-/Test Design – Manual Test Cases (Functional + LLM Behavior)=
+./Resolute-Portfolio – Open WebUI AI Assistant
 
 1. Introduction
 This document contains the manual test cases designed for the Open WebUI AI Assistant.
