@@ -1,10 +1,11 @@
 ***Open WebUI – Manual QA & LLM Testing Project***
+
 This project demonstrates a complete Manual QA workflow applied to an AI‑powered web application (Open WebUI) integrated with a local LLM (Ollama).
 It includes test planning, test case design, regression execution, defect reporting, evidence collection, and documentation using industry‑standard QA tools.
 
 This portfolio demonstrates my ability to evaluate modern AI‑powered systems using disciplined, evidence‑based QA practices.
 
--Project Overview
+**Project Overview**
 The goal of this project was to validate the core functionality, settings, and LLM behavior of Open WebUI.
 The testing process followed a structured QA approach:
 
@@ -39,7 +40,7 @@ GitHub (Version Control)
 
 PDF/Markdown (Documentation)
 
-Repository Structure
+*Repository Structure*
 Code
 /Docs
    Test-Plan.pdf
@@ -59,10 +60,10 @@ Code
 /QASE
    Regression-Test-Run.pdf
 
-README.md
+*README.md*
 This structure is clean, organized, and aligned with professional QA documentation standards.
 
-Test Coverage
+*Test Coverage*
 A total of 13 regression test cases were designed and executed, covering:
 
 Authentication
@@ -96,11 +97,11 @@ Error handling
 
 All execution results and screenshots are included in the Qase Regression Test Run PDF.
 
-Defect Reporting
+*Defect Reporting*
 Three defects were identified and logged in Jira with full evidence.
 Each bug includes:
 
-Summary
+*Summary*
 
 Steps to reproduce
 
@@ -155,7 +156,7 @@ Tool proficiency (Qase, Jira, ShareX)
 
 Professional portfolio presentation
 
-About Me
+*About Me*
 I am a QA professional with a strong focus on:
 
 Clear, reproducible workflows
@@ -168,7 +169,7 @@ Testing AI/LLM applications
 
 This project reflects my commitment to structured, high‑quality QA work.
 
-Contact
+*Contact*
 Zubair Morshed
 zubairmorshed@gmail.com
 347-742-9953
