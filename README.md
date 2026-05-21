@@ -27,7 +27,7 @@ Portfolio packaging
 
 All artifacts from the full QA cycle are included in this repository.
 
-Tools and Technologies
+**Tools and Technologies**
 Qase (Test Management)
 
 Jira (Bug Tracking)
@@ -40,7 +40,7 @@ GitHub (Version Control)
 
 PDF/Markdown (Documentation)
 
-*Repository Structure*
+**Repository Structure**
 Code
 /Docs
    Test-Plan.pdf
@@ -60,7 +60,7 @@ Code
 /QASE
    Regression-Test-Run.pdf
 
-*README.md*
+**README.md**
 This structure is clean, organized, and aligned with professional QA documentation standards.
 
 *Test Coverage*
@@ -97,11 +97,11 @@ Error handling
 
 All execution results and screenshots are included in the Qase Regression Test Run PDF.
 
-*Defect Reporting*
+**Defect Reporting**
 Three defects were identified and logged in Jira with full evidence.
 Each bug includes:
 
-*Summary*
+Summary
 
 Steps to reproduce
 
@@ -156,7 +156,7 @@ Tool proficiency (Qase, Jira, ShareX)
 
 Professional portfolio presentation
 
-*About Me*
+**About Me**
 I am a QA professional with a strong focus on:
 
 Clear, reproducible workflows
@@ -169,7 +169,7 @@ Testing AI/LLM applications
 
 This project reflects my commitment to structured, high‑quality QA work.
 
-*Contact*
+**Contact**
 Zubair Morshed
 zubairmorshed@gmail.com
 347-742-9953
