@@ -36,7 +36,7 @@ Error handling
 4.3 Model Settings
 Model selection
 
-Temperature, max tokens, top‑p
+Temperature, max_tokens, top‑p
 
 System prompt configuration
 
