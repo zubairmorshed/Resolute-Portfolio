@@ -27,7 +27,7 @@ These test cases will be imported into Qase and executed during Phase 6.
 -Priority: High
 
 Step	Action	Expected Result
--1	Navigate to login page >	Login page loads
+-1	Navigate to login page +?	Login page loads
 -2	Enter valid email	> Email accepted
 -3	Enter valid password> Password accepted
 -4	Click Login	> User is redirected to chat interface
@@ -92,6 +92,10 @@ Step	Action	Expected Result
 -1	Open Settings	> Settings panel opens
 -2	Change temperature	> Value updates
 -3	Save settings	> Settings persist
+-4	Change max_tokens value	> Value updates
+-5	Save settings	> Settings persist
+-6	Change top‑K value	> Value updates
+-7	Save settings	> Settings persist
 
 
 -TC-SET-002 – Enter invalid temperature value
