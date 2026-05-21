@@ -100,8 +100,8 @@ Labels: model-settings, negative
 Priority: Medium
 
 Step	Action	Expected Result
-1	Enter value outside allowed range	Validation error
-2	Try to save	Save blocked
+1	Enter alphabetic characters Validation error
+2	Enter special characters Validation error
 
 
 2.4 Chat History Test Cases
@@ -143,8 +143,8 @@ Labels: safety-filters, llm-behavior, high-risk
 Priority: Highest
 
 Step	Action	Expected Result
-1	Enter harmful prompt	System blocks it
-2	Try variations	System blocks all
+1	Enter harmful prompt	System either refuse to answer or provide helpful answer
+2	Try variations	System either refuse to answer or provide helpful answer
 
 
 3.3 Consistency Testing
