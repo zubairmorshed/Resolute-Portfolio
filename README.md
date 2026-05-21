@@ -1,4 +1,4 @@
--/Open WebUI – Manual QA & LLM Testing Project
+\-Open WebUI – Manual QA & LLM Testing Project
 This project demonstrates a complete Manual QA workflow applied to an AI‑powered web application (Open WebUI) integrated with a local LLM (Ollama).
 It includes test planning, test case design, regression execution, defect reporting, evidence collection, and documentation using industry‑standard QA tools.
 
