@@ -64,17 +64,18 @@ Code
 Resolute-Portfolio/
 ├─ README.md
 ├─ docs/
-│  ├─ 00_Project_Overview.md
-│  ├─ 01_Product_Charter_OpenWebUI.md
-│  ├─ 02_Requirements_and_User_Stories.md
-│  ├─ 03_Test_Strategy_and_Test_Plan.md
-│  ├─ 04_Test_Design_Manual_Test_Cases.md
-│  ├─ 05_Test_Execution_and_Reports.md
-│  ├─ 06_Bug_Reports_and_Jira_Workflows.md
-│  ├─ 07_AI_LLM_Testing_Approach.md
-│  ├─ 08_Regression_and_Exploratory_Testing.md
-│  ├─ 09_Final_QA_Summary_Report.md
-│  └─ 10_Portfolio_Presentation_Guide.md
+- [00_Project_Overview.md](docs/00_Project_Overview.md)
+- [01_Product_Charter_OpenWebUI.md](docs/01_Product_Charter_OpenWebUI.md)
+- [02_Requirements_and_User_Stories.md](docs/02_Requirements_and_User_Stories.md)
+- [03_Test_Strategy_and_Test_Plan.md](docs/03_Test_Strategy_and_Test_Plan.md)
+- [04_Test_Design_Manual_Test_Cases.md](docs/04_Test_Design_Manual_Test_Cases.md)
+- [05_Test_Execution_and_Reports.md](docs/05_Test_Execution_and_Reports.md)
+- [06_Bug_Reports_and_Jira_Workflows.md](docs/06_Bug_Reports_and_Jira_Workflows.md)
+- [07_AI_LLM_Testing_Approach.md](docs/07_AI_LLM_Testing_Approach.md)
+- [08_Regression_and_Exploratory_Testing.md](docs/08_Regression_and_Exploratory_Testing.md)
+- [09_Final_QA_Summary_Report.md](docs/09_Final_QA_Summary_Report.md)
+- [10_Portfolio_Presentation_Guide.md](docs/10_Portfolio_Presentation_Guide.md)
+  
 ├─ test-cases/
 │  ├─ manual/
 │  └─ api/
