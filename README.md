@@ -172,6 +172,6 @@ This project reflects my commitment to structured, high‑quality QA work.
 **Contact**
 Zubair Morshed
 zubairmorshed@gmail.com
-347-742-9953
+https://www.linkedin.com/in/zumo/
 Queens, NY
 Open to Manual QA and Analytics Engineering roles
