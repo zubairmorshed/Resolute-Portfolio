@@ -174,4 +174,3 @@ Zubair Morshed
 zubairmorshed@gmail.com
 https://www.linkedin.com/in/zumo/
 Queens, NY
-Open to Manual QA and Analytics Engineering roles
